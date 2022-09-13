@@ -1,0 +1,9 @@
+/* CSS do Card por completo */
+
+.card-nota{
+    background-color: #273141;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+    color: gainsboro;
+}
