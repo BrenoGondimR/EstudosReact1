@@ -1,0 +1,20 @@
+/* CSS lista  */
+li{
+    list-style-type: none;
+    
+}
+/* CSS lista */
+.card_ul{
+    padding: 0;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    width: 45%;
+}
+
+
+/* Responsividade com o css no site */
+@media screen and (max-width: 950px) {
+    .card_ul{
+      width: 100%;
+    }
+  }

@@ -5,10 +5,15 @@ import "./estilo.css"
 
 // Array com os titulos adicionados que vao ser adicionados de maneira simples quando for requisitado no "App.js" 
 class ListaDeNotas extends Component {
-    render(){
+
+
+
+
+  // funcao que pega do criar nota o titulo e o texto
+  render(){
         return (
           <ul className="card_ul">
-            {Array.of("Trabalho", "Estudos").map((categoria, index) => {
+            {this.props.notas.map((nota, index) => {
               return (
                 <li key={index}>
                   <CardNota />

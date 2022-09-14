@@ -1,19 +1,19 @@
 
 /* CSS do formulario */
 .card-form{
-    display: grid;
     margin-top: 35px;
-    justify-content: center;
+    width: 100%;
     padding: 10px;
-    justify-items: center;
+    width: 50%;
     
 
 }
-/* /* CSS do input */ */
+/* /* CSS do input */ 
 .card-form_input{
-    width: 50vw;
+    width: 100%;
     border-radius: 5px;
-    height: 35px;
+    height: 50px;
+    margin-top: 20px;
     background-color: #273141;;
     color: white;
     border: none;
@@ -21,20 +21,19 @@
 }
 /* CSS do textarea */
 .card-form_textarea{
-    margin-top: 10px;
-    width: 50vw;
+    width: 100%;
+    margin-top: 20px;
     border-radius: 5px;
-    height: 85px;
     background-color: #273141;
     color: white;
     border: none;
 }
 /* CSS do button enviar */
 .button_enviar{
-    margin-top: 10px;
+    margin-top: 20px;
     cursor: pointer;
     color: #2C3D55;
-    width: 50%;
+    width: 100%;
     height: 40px;
 }
 /* CSS button com hover */
@@ -42,3 +41,10 @@
     border: 2px solid #0d68e6;
     border-radius: 5px;
 }
+
+/* Responsividade do site com o css */
+@media screen and (max-width: 950px) {
+    .card-form{
+      width: 100%;
+    }
+  }

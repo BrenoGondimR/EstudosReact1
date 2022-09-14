@@ -39,4 +39,15 @@
 
 .container-main{
   display: flex;
+  margin: 40px;
+  flex-wrap: wrap;
+}
+
+/* Deixando o site responsivo mudando o css */
+
+@media screen and (max-width: 950px) {
+  .container-main{
+    display: grid;
+    justify-content: center;
+  }
 }
